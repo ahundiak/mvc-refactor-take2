@@ -3,7 +3,5 @@
 JM - Jeff M
 TB - Tom B
 
-Branch number matches the post number.
-
-* JM001 - Initial function oriented approach
-* TB008 - Refactored OOP
+* Post001JM - Initial function oriented approach (not in repo yet)
+* Post008TB - Refactored OOP, non-working
