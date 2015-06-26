@@ -7,6 +7,8 @@ TB - Tom B
 * Post008TB - Refactored OOP, non-working
 
 
-    cd Post008Tb
+    cd Post008TB
+    
     php -S localhost:8008 router.php
+    
     Browse to localhost:8008/new
