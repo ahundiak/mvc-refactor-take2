@@ -5,11 +5,11 @@ require_once 'view.php';
 
 // Route
 if ($_SERVER['REQUEST_URI'] === '/new' && $_SERVER['REQUEST_METHOD'] === 'GET') {
-  $model = new Model();
+  $model = new Model008();
   $view = new View('newThing.html.php', $model);
 
 } else if ($_SERVER['REQUEST_URI'] === '/new' && $_SERVER['REQUEST_METHOD'] === 'POST') {
-  $model = new Model();
+  $model = new Model008();
   $controller = new CreateController($model);
   $controller->createAction($_POST);
   $view = new View('newThing.html.php', $model);

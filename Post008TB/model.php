@@ -1,6 +1,6 @@
 <?php
 
-class Model {
+class Model008 {
   public $violations = [];
   public $entity;
   public $success = false;
